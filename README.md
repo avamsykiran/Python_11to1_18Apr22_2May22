@@ -52,7 +52,7 @@ Python
 
         #python
 
-        if cond
+        if cond :
          statement1
          statement2
         statement3
@@ -160,9 +160,62 @@ Python
                                             are used for
                                             multi line string
                                     """
-                boolean             true, false
+                boolean             False,True
 
+    Variables and Data Types
 
+        dynamically typed languages
+
+        x = 56
+        y = "Hello World"
+
+        Text Type:	    str
+        Numeric Types:	int, float, complex
+        Sequence Types:	list, tuple, range
+        Mapping Type:	dict
+        Set Types:	    set, frozenset
+        Boolean Type:	bool
+        Binary Types:	bytes, bytearray, memoryview
+
+        type casting:   str(x) will convet int x into a string.
+
+    Control Strucutres
+
+        Branching Statements 
+
+            simple if
+                if cond:
+                 statements_under_if_block....
+
+            if..else
+                if cond:
+                 statements_under_if_block....
+                else:
+                 statements_under_else_block....
+
+            if ladder
+                if cond1:
+                 statements_under_if_block....
+                elif cond2:
+                 statements_under_elif_block....
+                else:
+                 statements_under_else_block....
+
+            inline if
+                if cond: single_statement                
+
+            conditional statement
+                statement if cond else else_statement
+
+        Looping Statements
+
+            while
+            for
+
+        assignment1: a python script to print the factors of a givne number and check if it is prime
+        assignment2: a python script to print a multiplication table from 1 to 20's of a given number
+
+    
 
     
   
