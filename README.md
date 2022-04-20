@@ -211,11 +211,52 @@ Python
 
             while
             for
+        
+        Non Condition Statements
+
+            break
+            continue
 
         assignment1: a python script to print the factors of a givne number and check if it is prime
         assignment2: a python script to print a multiplication table from 1 to 20's of a given number
 
-    
+        assignment3: to print only the even positioned elements of a list of strings
 
-    
-  
+        input method
+            read a value from the keyboard
+
+        len method
+            to retrive the length of a string or a list or any collection.
+        
+        slicing 
+            collection[lb:ub] 
+            collection[:ub] 
+            collection[lb:]
+
+        assignment4: to accept a userName say('VAMSY') then print it as
+            V
+            VA
+            VAM
+            VAMS
+            VAMSY
+
+        assignment5: to accept a userName say('VAMSY') then print it as
+            VAMSY
+            VAMS
+            VAM
+            VA
+            V
+
+        assignment6: to accept a userName say('VAMSY') then print it as
+            V
+            AA
+            MMM
+            SSSS
+            YYYYY
+
+        
+        
+        
+        
+
+
