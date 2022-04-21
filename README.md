@@ -222,41 +222,102 @@ Python
 
         assignment3: to print only the even positioned elements of a list of strings
 
-        input method
-            read a value from the keyboard
+    input method
+        read a value from the keyboard
+
+    assignment4: to accept a userName say('VAMSY') then print it as
+        V
+        VA
+        VAM
+        VAMS
+        VAMSY
+
+    assignment5: to accept a userName say('VAMSY') then print it as
+        VAMSY
+        VAMS
+        VAM
+        VA
+        V
+
+    assignment6: to accept a userName say('VAMSY') then print it as
+        V
+        AA
+        MMM
+        SSSS
+        YYYYY
+
+    Python Collections        
+
+        Array      no concept of arrays but lists are sued as arrays
+
+                        modifiable      allows duplicates     ordered     indexed      operator
+        list                YES             YES                 YES         YES       [ele1,ele2]
+        tuple               NO              YES                 YES         YES       (ele1,ele2)
+        set                 YES             NO                  NO          NO        {ele1,ele2}
+        dictionary          YES             NO                  YES (>3.7)  N/A       {key:value}
+                                                                NO (<3.6)
 
         len method
             to retrive the length of a string or a list or any collection.
-        
+    
         slicing 
             collection[lb:ub] 
             collection[:ub] 
             collection[lb:]
-
-        assignment4: to accept a userName say('VAMSY') then print it as
-            V
-            VA
-            VAM
-            VAMS
-            VAMSY
-
-        assignment5: to accept a userName say('VAMSY') then print it as
-            VAMSY
-            VAMS
-            VAM
-            VA
-            V
-
-        assignment6: to accept a userName say('VAMSY') then print it as
-            V
-            AA
-            MMM
-            SSSS
-            YYYYY
-
         
-        
-        
-        
+        'in' and 'not in' operators are sued to check if the element exists or not in a collection
 
+            element in collection
+            element not in collection
+        
+        list methods
 
+            append()	Adds an element at the end of the list
+            clear()	    Removes all the elements from the list
+            copy()	    Returns a copy of the list
+            count()	    Returns the number of elements with the specified value
+            extend()	Add the elements of a list (or any iterable), to the end of the current list
+            index()	    Returns the index of the first element with the specified value
+            insert()	Adds an element at the specified position
+            pop()	    Removes the element at the specified position
+            remove()	Removes the item with the specified value
+            reverse()	Reverses the order of the list
+            sort()	    Sorts the list
+
+        tuple methods
+
+            count()	    Returns the number of times a specified value occurs in a tuple
+            index()	    Searches the tuple for a specified value and returns the position of where it was found
+
+        set methods
+
+            add()	                Adds an element to the set
+            clear()	                Removes all the elements from the set
+            copy()	                Returns a copy of the set
+            difference()	        Returns a set containing the difference between two or more sets
+            difference_update()	    Removes the items in this set that are also included in another, specified set
+            discard()	            Remove the specified item
+            intersection()	        Returns a set, that is the intersection of two other sets
+            intersection_update()	Removes the items in this set that are not present in other, specified set(s)
+            isdisjoint()	        Returns whether two sets have a intersection or not
+            issubset()	            Returns whether another set contains this set or not
+            issuperset()	        Returns whether this set contains another set or not
+            pop()	                Removes an element from the set
+            remove()	            Removes the specified element
+            union()	                Return a set containing the union of sets
+            update()	            Update the set with the union of this set and others
+
+        dictionary methods
+
+            clear()	        Removes all the elements from the dictionary
+            copy()	        Returns a copy of the dictionary
+            fromkeys()	    Returns a dictionary with the specified keys and value
+            get()	        Returns the value of the specified key
+            items()	        Returns a list containing a tuple for each key value pair
+            keys()	        Returns a list containing the dictionary's keys
+            pop()	        Removes the element with the specified key
+            popitem()	    Removes the last inserted key-value pair
+            setdefault()	Returns the value of the specified key. If the key does not exist:
+                             insert the key, with the specified value
+            update()	    Updates the dictionary with the specified key-value pairs
+            values()	    Returns a list of all the values in the dictionary
