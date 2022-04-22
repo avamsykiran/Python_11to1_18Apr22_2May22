@@ -321,3 +321,27 @@ Python
                              insert the key, with the specified value
             update()	    Updates the dictionary with the specified key-value pairs
             values()	    Returns a list of all the values in the dictionary
+
+    Function
+
+        def functionName():
+            function implementation.......
+
+        def functionName():
+            function implementation.......
+            return returnValueOrExpression
+
+        def functionName(param1,param2):
+            function implementation.......
+
+        #Var len args or arbitary args
+        def functionName(*args):
+            function implementation.......
+
+        def functionName(**args):
+            function implementation.......
+
+        
+        
+
+        
