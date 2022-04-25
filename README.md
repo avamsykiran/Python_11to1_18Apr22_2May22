@@ -341,6 +341,37 @@ Python
         def functionName(**args):
             function implementation.......
 
+    Variable Scope
+
+        local variables
+        global variables
+
+    Classes and Object
+
+        class is a user defiend data type to represent an entity
+        in terms of its properties and behaviours.
+
+
+        class ClassName:
+            __init__(self,......)
+                #constructor - is the first function that gets called after initializing an object.
+                #self is the reference pointing to the current instance.
+
+        an object is a variable of class type
+
+  assignment7: 
+        a. define a class Student with properties 
+            name,maths score,phy score and computers score
+        b. define a member function total to return the total Score
+        c. define a member function average to return the average score
+        d. define a member function grade to return grade as per the below rules
+
+                if any one score is less than 35 then the grade is FAIL
+                else if avg >=90    grade is outstanding
+                else if avg between 89 and 70 grade is proficient
+                else if avg between 69 and 36 grade is aspirant
+
+
         
         
 
