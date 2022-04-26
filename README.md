@@ -359,7 +359,7 @@ Python
 
         an object is a variable of class type
 
-  assignment7: 
+    assignment7: 
         a. define a class Student with properties 
             name,maths score,phy score and computers score
         b. define a member function total to return the total Score
@@ -371,6 +371,23 @@ Python
                 else if avg between 89 and 70 grade is proficient
                 else if avg between 69 and 36 grade is aspirant
 
+    Modules
+
+        is a logical section of an application code base.
+
+        each .py file is concedered to be a module.
+
+        the file anme becomes the module name.
+
+        import moduleName
+
+        from moduleName import resource
+
+    assignment8: 
+        a. define and consume a modules called 'loans' having
+            1. a method called simpleInterest
+            2. a method called compositeInterest
+            3. a method called emi
 
         
         
