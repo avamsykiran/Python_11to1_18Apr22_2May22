@@ -388,8 +388,24 @@ Python
             1. a method called simpleInterest
             2. a method called compositeInterest
             3. a method called emi
+       
+    Exception Handling
 
-        
-        
+        try:
+            #code that we anticipate to raise an exception
+        except:
+            #alternate or exception handling code goes here..
+        else:
+            #this block is executed if the try completes without any exception
+        finally:
+            #this block executes irrespective of an exception being raised or not raised.    
+
+    assignment9: 
+        a. define a class Train having 'maxSeats' and 'seatsFilled' as fields
+        b. write the script to run a managed loop that
+            1. prompt for booking seats
+            2. accept the number of sets needed and book them by calling 'reserve' function on the train.
+            3. print seats remaning after every booking
+        c. handle appropriate exceptions
 
         
